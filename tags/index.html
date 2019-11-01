@@ -28,14 +28,7 @@
 
 </head>
 
-<script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
-<script src="/js/prettify.js"></script>
-<script type="text/javascript">
-  $(window).on('load', function(){ 
-    $('pre').addClass('prettyprint linenums').attr('style', 'overflow:scroll;');
-    prettyPrint();
-  });
-</script>
+
 <body style="
 
 
@@ -94,6 +87,14 @@
     
   
   <span class="copyright">All rights reserved @Xiang Chunyan</span>
+  <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
+<script src="/js/prettify.js"></script>
+<script type="text/javascript">
+  $(window).on('load', function(){ 
+    $('pre').addClass('prettyprint');
+    prettyPrint();
+  });
+</script>
 </footer>
   </div>
 </body>
